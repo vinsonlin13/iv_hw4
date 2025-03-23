@@ -17,7 +17,7 @@ export let drawBarChart = (barChartLayer, data, xScale, yScale, barChartWidth, b
     //2. The mouseover event should also highlight the corresponding points in the scatter plot
 
     const scatterPlotWidth = 550;  
-    const scatterPlotHeight = 350; 
+    const scatterPlotHeight = 400; 
 
     barChartLayer.selectAll('.bar') // Select all bars
         .data(data) // Bind data to the bars
